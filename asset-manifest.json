@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Indroyd-game/static/css/main.c8f3874b.css",
+    "main.js": "/Indroyd-game/static/js/main.1b20d2d6.js",
+    "static/js/897.7f28beba.chunk.js": "/Indroyd-game/static/js/897.7f28beba.chunk.js",
+    "index.html": "/Indroyd-game/index.html",
+    "main.c8f3874b.css.map": "/Indroyd-game/static/css/main.c8f3874b.css.map",
+    "main.1b20d2d6.js.map": "/Indroyd-game/static/js/main.1b20d2d6.js.map",
+    "897.7f28beba.chunk.js.map": "/Indroyd-game/static/js/897.7f28beba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8f3874b.css",
+    "static/js/main.1b20d2d6.js"
+  ]
+}
