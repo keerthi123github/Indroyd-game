@@ -1,9 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./index.css";
 
 function PlayerAnswer({ playerName, question, onAnswerSubmit }) {
   const [selectedAnswer, setSelectedAnswer] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
+
+  // Reset selected answer when a new question is loaded
+  useEffect(() => {
+    setSelectedAnswer("");
+  }, [question]);
 
   const handleChange = (e) => {
     setSelectedAnswer(e.target.value);
@@ -31,6 +36,7 @@ function PlayerAnswer({ playerName, question, onAnswerSubmit }) {
               className="option-element"
               name={`answer-${playerName}`}
               value={opt.charAt(0)}
+              checked={selectedAnswer === opt.charAt(0)} // Set the checked state based on selectedAnswer
               onChange={handleChange}
             />
             <label htmlFor={`option-${index}`} className="option">
