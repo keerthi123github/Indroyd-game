@@ -1,0 +1,98 @@
+.game-container {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/match-game-bg.png");
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+.game-over-icon {
+  height: 80px;
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+.question {
+  background-color: #ffffff;
+  border-width: 0px;
+  border-radius: 6px;
+  color: #2c0e3a;
+  font-family: "Roboto";
+  font-size: 26x;
+  padding: 20px;
+  width: 80%;
+}
+@media screen and (max-width: 767px) {
+  .question {
+    font-size: 24px;
+  }
+}
+.feed-back {
+  color: #fec653;
+  font-family: "Roboto";
+  font-size: 20px;
+}
+@media screen and (max-width: 767px) {
+  .feed-back {
+    font-size: 18px;
+  }
+}
+.modal-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  padding: 30px;
+  margin: 30px;
+  border-radius: 6px;
+}
+.score-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #2c0e3a;
+  border-radius: 8px;
+}
+.game-over {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 26px;
+}
+@media screen and (max-width: 767px) {
+  .game-over {
+    font-size: 22px;
+  }
+}
+.player-score {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 20px;
+}
+@media screen and (max-width: 767px) {
+  .player-score {
+    font-size: 18px;
+  }
+}
+.top-player {
+  color: #2c0e3a;
+  font-size: 22px;
+}
+@media screen and (max-width: 767px) {
+  .top-player {
+    font-size: 20px;
+  }
+}
+.close-button {
+  align-self: flex-start;
+  background-color: #cf60c8;
+  border-width: 0px;
+  border-radius: 4px;
+  color: black;
+  font-size: 14px;
+  font-family: "Roboto";
+  font-weight: 600;
+  height: 26px;
+  width: 80px;
+  cursor: pointer;
+  outline: none;
+}

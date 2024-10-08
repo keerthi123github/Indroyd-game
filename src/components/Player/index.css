@@ -1,0 +1,41 @@
+.player-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+.enter-name {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 26px;
+}
+@media screen and (max-width: 767px) {
+  .enter-name {
+    font-size: 22px;
+  }
+}
+.input-element {
+  background-color: #ffffff;
+  border-width: 0px;
+  border-radius: 4px;
+  margin-right: 6px;
+  color: black;
+  font-family: "Roboto";
+  font-size: 16px;
+  padding-left: 8px;
+  height: 26px;
+  cursor: pointer;
+  outline: none;
+}
+.join-button {
+  background-color: #cf60c8;
+  border-width: 0px;
+  border-radius: 4px;
+  color: black;
+  font-family: "Roboto";
+  font-size: 16px;
+  height: 26px;
+  width: 100px;
+  cursor: pointer;
+  outline: none;
+}
